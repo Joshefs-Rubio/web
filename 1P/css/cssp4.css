@@ -1,49 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    padding: 0; /* Quita el relleno */
+    margin: 0; /* Quita el margen */
+    box-sizing: border-box; /* Hace que el ancho y alto sean el total de lo que se le asigna */
+    font-family: sans-serif; /* Fuente de letra */
 }
 
 body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: url(img/fondo.jpg);
-    background-size: cover;
+    display: flex; /* Hace que el body sea un contenedor flex */
+    height: 100vh; /* Altura del body */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    background-image: url(img/fondo.jpg); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del body */
 }
 
 .container{
-    width: 100%;
-    max-width: 650px;
+    width: 100%; /* Ancho del contenedor */
+    max-width: 650px; /* Ancho máximo del contenedor */
     background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(23px);
-    padding: 47px;
-    margin: 0 28px;
-    border-radius: 37px;
+    backdrop-filter: blur(23px); /* Efecto de desenfoque */
+    padding: 47px; /* Relleno del contenedor */
+    margin: 0 28px; /* Margen del contenedor */
+    border-radius: 37px; /* Borde redondeado */
     box-shadow: inset 0 25px 50px rgb(0, 0, 0, 0.1);
 }
 
 .form-title{
-    font-size: 60px;
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 30px;
+    font-size: 60px; /* Tamaño de la letra */
+    font-weight: 600; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    padding-bottom: 30px; /* Relleno inferior */
     color: #8f2c24;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px white; /* Borde inferior */
 }
 
 .main-user-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex; /* Hace que el contenedor sea un contenedor flex */
+    flex-wrap: wrap; /* Hace que los elementos se ajusten al tamaño del contenedor */
+    justify-content: space-between; /* Alinea los elementos alrededor del contenedor */
     padding: 20px 0;
     
 }
 
 .user-input-box:nth-child(2n){
-    justify-content: end;
+    justify-content: end; /* Alinea los elementos al final del contenedor */
     
 }
 
@@ -55,7 +55,7 @@ body{
 
 }
 
-.user-input-box label{
+.user-input-box label{ 
     width: 95%;
     color: white;
     font-size: 20px;
@@ -72,6 +72,7 @@ body{
     padding: 0 10px;
     color: #8f2c24;
     font-size: 16px;
+    transition: .5s;
 }
 
 .gender-title{
