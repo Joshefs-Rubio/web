@@ -2,14 +2,16 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Formulario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
     <link rel="stylesheet" href="css/cssp4.css" />
     <link rel="icon" href="img/Logo_DeskWorks.png" />
   </head>
+
   <body>
     <div class="container">
       <h1 class="form-title">Formulario</h1>
+
       <form action="#">
         <div class="main-user-info">
           <div class="user-input-box">
@@ -51,28 +53,32 @@
               placeholder="Ingrese su numero telefonico"
             />
           </div>
-        </div>
 
-        <div class="gender-details-box">
-          <span class="gender-title">Genero</span>
-          <div class="gender-category">
-            <input type="radio" name="genero" id="male" />
-            <label for="male"><span>hombre</span></label>
+          <div class="gender-details-box">
+            <span class="gender-title">Genero</span>
+            <div class="gender-category">
+              <input type="radio" name="genero" id="male" />
+              <label for="male"><span>hombre</span></label>
 
-            <input type="radio" name="genero" id="female" />
-            <label for="female"><span>mujer</span></label>
+              <input type="radio" name="genero" id="female" />
+              <label for="female"><span>mujer</span></label>
 
-            <input type="radio" name="genero" id="other" />
-            <label for="other"><span>otro</span></label>
+              <input type="radio" name="genero" id="other" />
+              <label for="other"><span>otro</span></label>
+            </div>
           </div>
-        </div>
-
-          <div class="form-submit-btn">
-            <input type="submit" value="Enviar" />
-          </div>
-          
         </div>
       </form>
+
+      <div class="form-submit-btn">
+        <input type="button" value="Enviar" onclick="submitForm()" />
+      </div>
     </div>
+
+    <script>
+      function submitForm() {
+        document.querySelector("form").submit(); // Envía el formulario cuando se hace clic en el botón
+      }
+    </script>
   </body>
 </html>
