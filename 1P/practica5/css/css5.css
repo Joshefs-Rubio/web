@@ -70,9 +70,9 @@ body{
                 
             }
 
-            .contenedor {
+            .header {
                 display: flex;
-                justify-content: center; /* Agregado para centrar el contenedor */
+                justify-content: center; /* Agregado para centrar el header */
                 
             }
 

@@ -6,7 +6,7 @@
 }
 
 body{
-    display: flex; /* Hace que el body sea un contenedor flex */
+    display: flex; /* Hace que el body sea un header flex */
     height: 100vh; /* Altura del body */
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
@@ -15,13 +15,13 @@ body{
 }
 
 .container{
-    width: 100%; /* Ancho del contenedor */
-    max-width: 650px; /* Ancho máximo del contenedor */
-    min-width: 320px; /* Ancho mínimo del contenedor */
+    width: 100%; /* Ancho del header */
+    max-width: 650px; /* Ancho máximo del header */
+    min-width: 320px; /* Ancho mínimo del header */
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(23px); /* Efecto de desenfoque */
-    padding: 47px; /* Relleno del contenedor */
-    margin: 0 28px; /* Margen del contenedor */
+    padding: 47px; /* Relleno del header */
+    margin: 0 28px; /* Margen del header */
     border-radius: 37px; /* Borde redondeado */
     box-shadow: inset 0 25px 50px rgb(0, 0, 0, 0.1);
 }
@@ -36,15 +36,15 @@ body{
 }
 
 .main-user-info{
-    display: flex; /* Hace que el contenedor sea un contenedor flex */
-    flex-wrap: wrap; /* Hace que los elementos se ajusten al tamaño del contenedor */
-    justify-content: space-between; /* Alinea los elementos alrededor del contenedor */
+    display: flex; /* Hace que el header sea un header flex */
+    flex-wrap: wrap; /* Hace que los elementos se ajusten al tamaño del header */
+    justify-content: space-between; /* Alinea los elementos alrededor del header */
     padding: 20px 0;
     
 }
 
 .user-input-box:nth-child(2n){
-    justify-content: end; /* Alinea los elementos al final del contenedor */
+    justify-content: end; /* Alinea los elementos al final del header */
     
 }
 
