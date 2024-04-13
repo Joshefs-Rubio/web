@@ -3,71 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style_2.css">
+    <link rel="stylesheet" href="css/style_2.css" />
+    <link rel="stylesheet" href="bootstran/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="bootstran/js/bootstrap.bundle.min.js" />
+    <link rel="shortcut icon" href="" />
+    <title>Settings</title>
   </head>
   <body>
     <div class="container">
-
-        <div class="topbox">
-            <h4>News</h4>
-
-            <div class="top-img">
-                <img src="Assets/img/minimizar_ventana.png" alt="">
-                <img src="Assets/img/maximizar_ventana.png" alt="">
-                <img src="Assets/img/cerrar_ventana.png" alt="">
-            </div>
+      <div class="header">
+        <header>
+          <h6>News</h6>
+          <i class="bi bi-dash"></i>
+          <i class="bi bi-square"></i>
+          <i class="bi bi-x-lg"></i>
+        </header>
+      </div>
+      <div class="body">
+        <div class="top-menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="side-menu">
+          <i class="bi bi-house"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-pin-map"></i>
+          <i class="bi bi-play"></i>
+          <i class="bi bi-emoji-smile"></i>
+        </div>
+        <div class="bottom-menu">
+          <i class="bi bi-people"></i>
+          <i class="bi bi-gear"></i>
         </div>
 
-        <div class="midbox">
-            <a href="page9.html"><i class="fas fa-home"></i> Home</a>
-            <h1>Settings</h1>
-            <a href="page10.html"><i class="fas fa-home"></i> Home</a>
-            <a href="page11.html"><i class="fas fa-home"></i> General</a>
-            <a href="page12.html"><i class="fas fa-home"></i> Privacy staterment</a>
-            <a href="page13.html"><i class="fas fa-home"></i> Terms of use</a>
-            <a href="page14.html"><i class="fas fa-home"></i> About</a>
+        <div class="main-content">
+          <header>
+            <i class="bi bi-arrow-left"></i>
+            <h5>Settings</h5>
+            <h6>General Privacy Statement Terms of Use About</h6>
+          </header>
         </div>
-
-        <div class="leftbox">
-            <a href="page1.html"><i class="fas fa-home"></i> Home</a>
-            <a href="page2.html"><i class="fas fa-user"></i> Profile</a>
-            <a href="page3.html"><i class="fas fa-envelope"></i> Messages</a>
-            <a href="page4.html"><i class="fas fa-bell"></i> Notifications</a>
-            <a href="page5.html"><i class="fas fa-cog"></i> Settings</a>
-            <a href="page6.html"><i class="fas fa-search"></i> Search</a>
-            <a href="page7.html"><i class="fas fa-heart"></i> Favorites</a>
-            <a href="page8.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        <div class="options">
+          <h3>Options</h3>
+          <label for="">Choose Edition</label><br /><br />
+          <select name="" id="">
+            <option value="">United States English</option></select
+          ><br /><br />
+          <label for="">Dark Theme Mode (for Articles)</label><br /><br />
+          <input type="checkbox" id="darkModeToggle" />
+          <label for="darkModeToggle" class="toggle-button"></label>
+          <label for="">Off</label><br /><br />
+          <h3>Notifications</h3>
+          <label for="">Breaking News Alerts</label><br /><br />
+          <input type="checkbox" id="alertsToggle" />
+          <label for="alertsToggle" class="toggle-button"></label>
+          <label for="">On</label>
         </div>
-
-        <div class="rightbox">
-            <h1>Options</h1>
-            <di>
-              <div class="form-group">
-                <label for="language">Choose edition:</label>
-                <select class="form-control" id="language">
-                  <option value="english">English</option>
-                  <option value="spanish">Spanish</option>
-                  <option value="french">French</option>
-                </select>
-              </div>
-              
-              <h5>Dark Theme Mode (For Articles)</h5>
-              <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                  <label class="form-check-label" for="flexSwitchCheckDefault">Off</label>
-                </div>
-            
-            <h3>Notifications</h3>
-             <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                  <label class="form-check-label" for="flexSwitchCheckChecked">On</label>
-             </div>
-        </div>
-      
-
+      </div>
     </div>
-    <script src="boostrap/js/bootstrap.bundle.js"></script>
   </body>
 </html>
